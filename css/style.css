@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 500px;
+    max-width: 800px;
     margin: 0 auto;
 
 }
@@ -46,10 +46,10 @@ header span {
 div {
     
     height: 80px;
-    padding-left: 10px;
+    padding-left: 25px;
     padding-top: 40px;
     padding-bottom: 30px;
-    border: 1px;
+    border-bottom: 2px solid rgba(187, 179, 179, 0.151);
     
 }
 
@@ -64,6 +64,7 @@ div span {
     vertical-align: middle;
 }
 menu {
+    
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -83,4 +84,18 @@ menu {
     color: lightgray;
 }
 
+.list {
+    font-size: 20px;
+    margin-top: 15px;
+    
+}
 
+section span {
+    font-size: 13px;
+}
+p {
+    margin:5px 0;
+}
+section {
+    padding-left: 25px;
+}
